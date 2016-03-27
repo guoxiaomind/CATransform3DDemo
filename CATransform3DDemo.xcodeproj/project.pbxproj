@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		FDA7EEFD1CA763DF005C6734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7EEFC1CA763DF005C6734 /* main.m */; };
 		FDA7EF001CA763DF005C6734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7EEFF1CA763DF005C6734 /* AppDelegate.m */; };
-		FDA7EF031CA763DF005C6734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7EF021CA763DF005C6734 /* ViewController.m */; };
-		FDA7EF061CA763DF005C6734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA7EF041CA763DF005C6734 /* Main.storyboard */; };
+		FDA7EF031CA763DF005C6734 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7EF021CA763DF005C6734 /* MainViewController.m */; };
 		FDA7EF081CA763DF005C6734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA7EF071CA763DF005C6734 /* Assets.xcassets */; };
-		FDA7EF0B1CA763DF005C6734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA7EF091CA763DF005C6734 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +18,9 @@
 		FDA7EEFC1CA763DF005C6734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA7EEFE1CA763DF005C6734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDA7EEFF1CA763DF005C6734 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDA7EF011CA763DF005C6734 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDA7EF021CA763DF005C6734 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDA7EF051CA763DF005C6734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA7EF011CA763DF005C6734 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FDA7EF021CA763DF005C6734 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		FDA7EF071CA763DF005C6734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDA7EF0A1CA763DF005C6734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA7EF0C1CA763DF005C6734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,11 +56,9 @@
 			children = (
 				FDA7EEFE1CA763DF005C6734 /* AppDelegate.h */,
 				FDA7EEFF1CA763DF005C6734 /* AppDelegate.m */,
-				FDA7EF011CA763DF005C6734 /* ViewController.h */,
-				FDA7EF021CA763DF005C6734 /* ViewController.m */,
-				FDA7EF041CA763DF005C6734 /* Main.storyboard */,
+				FDA7EF011CA763DF005C6734 /* MainViewController.h */,
+				FDA7EF021CA763DF005C6734 /* MainViewController.m */,
 				FDA7EF071CA763DF005C6734 /* Assets.xcassets */,
-				FDA7EF091CA763DF005C6734 /* LaunchScreen.storyboard */,
 				FDA7EF0C1CA763DF005C6734 /* Info.plist */,
 				FDA7EEFB1CA763DF005C6734 /* Supporting Files */,
 			);
@@ -136,9 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA7EF0B1CA763DF005C6734 /* LaunchScreen.storyboard in Resources */,
 				FDA7EF081CA763DF005C6734 /* Assets.xcassets in Resources */,
-				FDA7EF061CA763DF005C6734 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +141,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA7EF031CA763DF005C6734 /* ViewController.m in Sources */,
+				FDA7EF031CA763DF005C6734 /* MainViewController.m in Sources */,
 				FDA7EF001CA763DF005C6734 /* AppDelegate.m in Sources */,
 				FDA7EEFD1CA763DF005C6734 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FDA7EF041CA763DF005C6734 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDA7EF051CA763DF005C6734 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FDA7EF091CA763DF005C6734 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDA7EF0A1CA763DF005C6734 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDA7EF0D1CA763DF005C6734 /* Debug */ = {
