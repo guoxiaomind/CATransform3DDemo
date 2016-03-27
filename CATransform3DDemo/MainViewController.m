@@ -65,10 +65,12 @@
     CGRect frame = [bottomView frame];
     frame.origin.y = screenHeight - bottomView.frame.size.height;
     [UIView animateWithDuration:animateShowTime animations:^{
+        //第一步
         [view.layer setTransform:[self firstStep]];
     } completion:^(BOOL finished){
         [UIView animateWithDuration:animateShowTime animations:^{
-             [view.layer setTransform:[self secondStep:view]];
+            //第二步
+            [view.layer setTransform:[self secondStep:view]];
         } completion:^(BOOL finished){
             [UIView animateWithDuration:animateShowTime animations:^{
                 [maskView setAlpha:0.5f];
@@ -89,6 +91,7 @@
     } completion:^(BOOL finished){
         [UIView animateWithDuration:animateShowTime animations:^{
             [maskView removeFromSuperview];
+           //第一步
             [view.layer setTransform:[self firstStep]];
         } completion:^(BOOL finished){
             [UIView animateWithDuration:animateShowTime animations:^{
